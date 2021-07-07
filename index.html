@@ -2,70 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Thomas Dongze Li</title>
+    <title>Thomas Li</title>
     <style>
-    font {
-    color: #0ae285;
-    }
-    h1 {
-    background-color: #0ae285);
-    -webkit-background-clip: text;
-    position: relative;
-    margin-top: 5%;
-    margin-left: 5%
-    }
-    h5 {
-    background-color: white;
-    -webkit-background-clip: text;
-    position: relative;
-    margin-top: 17%;
-    margin-left: 5%
-    }
-    button {
-    transition: 0.5s;
-    color: #0ae285;
-    background: transparent;
-    padding: 10px 20px;
-    border:3px solid #0ae285;
-    border-radius: 20px;
-    position: relative;
-    display: inline-block;
-    font-size: 15px;
-    }
-    span {
-    background: #c0fbd0;
-    height: 100%;
-    width: 0;
-    border-radius: 20px;
-    position: absolute;
-    left: 0;
-    up: -5;
-    z-index: -1;
-    transition: 0.5s;
-    margin-top: -9%;
-    }
-    html{
-    height: 100%;
-    background: linear-gradient(135deg, transparent 50%, #0ae285 50%);
-    }
-    button:hover span{
-    width: 100%;
-    }
-    body{
-    z-index: -1;}
+
+        p {text-align: center;}
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        div {text-align: center;}
+        green-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #0ae285;
+        color: #0ae285;
+        }
+
+        blue-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #0B7CBD;
+        color: #0B7CBD;
+        }
+
+        red-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #FA3A2D;
+        color: #FA3A2D;
+        }
+
+        orange-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #FD7435;
+        color: #FD7435;
+        }
+
+        cyan-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #3BA2BF;
+        color: #3BA2BF;
+        }
+
+        yellow-button {
+        transition: 0.5s;
+
+        background: transparent;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        border:3px solid #E6A10E;
+        color: #E6A10E;
+        }
+
+        span {
+
+        height: 100%;
+        width: 0;
+        border-radius: 20px;
+        position: absolute;
+        left: 0;
+
+        z-index: -1;
+        transition: 0.5s;
+        margin-top: -9%;
+        }
+
+        orange-button:hover span{
+        background: #964520;
+        width: 100%;
+        }
+
+        green-button:hover span{
+        background: #007510;
+        width: 100%;
+        }
+
+        blue-button:hover span{
+        background: #0A47AB;
+        width: 100%;
+        }
+
+        red-button:hover span{
+        background: #852E11;
+        width: 100%;
+        }
+
+        cyan-button:hover span{
+        background: #30619C;
+        width: 100%;
+        }
+
+        yellow-button:hover span{
+        background: #967602;
+        width: 100%;
+        }
+
     </style>
 </head>
-<body style="position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; overflow: hidden;">
+<body style="background: #303030; color: white; overflow: auto;">
+<h1>Hi, I'm Thomas</h1>
+<p style="color: white">I'm a 13 year old programmer living in Canada.</p>
+<p>I'm decent at:</p>
 <div>
-<font size="+800">
-    <h1>
-        Thomas Li
-        <!--xue hua piao piao-->
-    </h1>
-    </font>
+    <yellow-button type="button" class=".yellow-button" style="" onclick="window.location.href='https://www.python.org/'"><span></span>Python</yellow-button>
+    <green-button type="button" class=".green-button" style="" onclick="window.location.href='https://www.arduino.cc/'"><span></span>Arduino C++</green-button>
+    <blue-button type="button" class=".blue-button" style="" onclick="window.location.href='https://godotengine.org/'"><span></span>Godot Game Engine</blue-button>
 </div>
+<p style="color: white">I know a bit of:</p>
 <div>
-    <button type="button" style="margin-top; margin-left: 5%;" onclick="window.location.href='https://github.com/ThomasDLi'"><span></span>My Github</button>
+    <cyan-button type="button" class=".cyan-button" style="" onclick="window.location.href='https://unity.com/'"><span></span>Unity</cyan-button>
+    <orange-button type="button" class=".orange-button" style="" onclick="window.location.href='https://en.wikipedia.org/wiki/HTML'"><span></span>HTML/CSS</orange-button>
 </div>
+<p style="color: white">I'm currently learning:</p>
+<div>
+    <red-button type="button" class=".red-button" style="" onclick="window.location.href='https://www.java.com/en/'"><span></span>Java</red-button>
+</div>
+<h2><br><br>
+    My Github:</h2>
+<div>
+<green-button type="button" class=".green-button" style="" onclick="window.location.href='https://github.com/thomasdli/'"><span></span>Github</green-button>
+</div>
+
+<h2><br><br>
+    Some Projects:</h2>
+<p>Arduino Posture Corrector. Corrects your posture using an Arduino Nano and <br>
+    you can read a paper which I wrote on it <b><a href="https://pastebin.com/VDWH8u1G" style="color: #50F0EC;">here</a></b>.</p>
+<p><br>Discord Bots. I like making Discord bots, and I have even made a Discord bot <br>
+    for a server that had over 250 members! Sadly, the server has gone inactive<br>
+    since then, and most of the code for the bot was server-specific. A small <br>
+    snippet of the code, which was used to create clubs/teams can be found <b><a href="https://github.com/ThomasDLi/discord.py-club-bot" style="color: #50F0EC;">here</a></b>.</p>
+<p><br>Python packages and modules. I have made a few of them however I have not<br>
+    uploaded them to pip yet. I plan on doing so, and once I do, I will put
+    a link here.</p>
 </body>
 </html>
