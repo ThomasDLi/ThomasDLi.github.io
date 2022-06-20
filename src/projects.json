@@ -1,0 +1,10 @@
+[
+
+    {"Delivery-Drone (WIP)" : ["A drone that can accuratly deliver packages to a specific GPS location.", "https://example.com"]},
+    {"CNC-Control (WIP)" : ["A collection of software, similar to GRBL, that can be used to control Arduino-based CNC machines", "https://example.com"]},
+    {"Wireless-Aimbot" : ["A wireless handheld turret that uses face recognition to aim at targets.", "https://github.com/ThomasDLi/aimbot"]},
+    {"Faseless" : ["An anonymous social media site. https://faseless-thomasdli.vercel.app", "https://github.com/ThomasDLi/faseless"]},
+    {"Posture-Corrector" : ["A small device that can map out your back and fix your posture.", "https://github.com/ThomasDLi/arduino-posture-corrector"]},
+    {"Discord.py-Templates" : ["Code to generate templates for bots using the Discord.py libary.", "https://github.com/ThomasDLi/discord-py-template-gen"]}
+
+]
