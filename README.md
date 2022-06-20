@@ -1,4 +1,6 @@
-###### my portfolio site
+# my portfolio site
 
-## I made it in React.js
-## No CSS = Best CSS
+## thomasli.ca
+
+### I made it in React.js
+### No CSS = Best CSS
