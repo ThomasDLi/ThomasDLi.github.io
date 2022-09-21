@@ -20,6 +20,8 @@ function Navbar(){
 
                 <Link to="/projects">Projects</Link>
 
+                <a href="https://thomasdli.notion.site/thomasdli/My-Blog-12aad5c68cb54e01baa1e640fef81015" target="_blank" rel="noreferrer">Blog</a>
+
                 <Link to="/contact">Contact</Link>
 
             </div>
