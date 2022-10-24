@@ -1,5 +1,6 @@
 [
 
+    {"ThomOS" : ["So uh I decided to make an OS. (work in progress)", "https://github.com/ThomasDLi/ThomOS"]},
     {"SPU" : ["A self-designed 8 bit CPU with an interface similar to the 6502.", "https://github.com/ThomasDLi/SPU"]},
     {"PyCNC" : ["A collection of software, similar to GRBL, that can be used to control Arduino-based CNC machines from Python.", "https://github.com/ThomasDLi/pycnc"]},
     {"Wireless-Aimbot" : ["A wireless handheld turret that uses face recognition to aim at targets.", "https://github.com/ThomasDLi/aimbot"]},
